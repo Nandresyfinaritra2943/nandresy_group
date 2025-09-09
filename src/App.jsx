@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
+import Services from "./pages/Services";
 
 function App () {
 
@@ -11,10 +12,12 @@ function App () {
       <Router>
         <div className="flex flex-col min-h-screen">
           <Header />
+         
           <main>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/services" element={<Services />} />
             </Routes>
           </main>
           <Footer />
