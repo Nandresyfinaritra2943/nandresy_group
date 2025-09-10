@@ -46,7 +46,7 @@ function Header () {
                                 <li> <Link to="/" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Acceuil </Link> </li>
                                 <li> <Link to="solutions" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Nos Solutions </Link> </li>
                                 <li> <Link to="/services" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Nos Services </Link> </li>
-                                <Link to="/contact" className=" bg-blue-900 text-white font-bold px-4 py-2 hover:bg-blue-700 rounded ">
+                                <Link to="/contact" onClick={closeMenu} className=" bg-blue-900 text-white font-bold px-4 py-2 hover:bg-blue-700 rounded ">
                                     Contactez-nous
                                 </Link>
                             </ul>
