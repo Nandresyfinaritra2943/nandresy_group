@@ -16,7 +16,7 @@ function Header () {
                         <Link to="/">
                             {/* <img src={NRZ} alt="NRZ Madagascar" className="h-10 w-20 h-20 bg-none rounded-full object-cover"/> */}
                             <div className="flex flex-col items-center justify-center bg-transparent">
-                                <span className="text-gray-700 text-6xl font-bold tracking-widest">NRZ</span>
+                                <span className="text-gray-700 text-6xl font-bold tracking-widest">NaNTIC</span>
                                 <span className="text-gray-700 text-lg tracking-widest mt-2">MADAGASCAR</span>
                             </div>
                         </Link>
