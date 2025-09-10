@@ -31,25 +31,28 @@ function Header () {
                                 <li> <Link to="/" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Acceuil </Link> </li>
                                 <li> <Link to="solutions" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Nos Solutions </Link> </li>
                                 <li> <Link to="services" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Nos Services </Link> </li>
+                                <Link to="/contact" className="bg-blue-900 text-white font-bold px-4 py-2 hover:bg-blue-700 rounded">
+                                    Contactez-nous
+                                </Link>
                             </ul>
                         </nav>
 
                         <nav className={`
-                        md:hidden ${isOpen ? 'block' : 'hidden'}
-                        absolute top-16 left-0 w-full bg-gray-200 p-4 z-20
+                        md:hidden ${isOpen ? ' top-16 opacity-100 scale-y-100' : ' top-10 opacity-0 scale-y-0'}
+                        absolute top-16 left-0 w-72 text-center items-center bg-gray-200 p-4 z-20 rounded-lg
+                        transform transition-all duration-300 ease-in-out origin-top
                         `}>
-                            <ul className="flex space-x-4">
+                            <ul className="flex flex-col space-y-4">
                                 <li> <Link to="/" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Acceuil </Link> </li>
                                 <li> <Link to="solutions" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Nos Solutions </Link> </li>
                                 <li> <Link to="/services" onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 font-medium cursor-pointer"> Nos Services </Link> </li>
+                                <Link to="/contact" className=" bg-blue-900 text-white font-bold px-4 py-2 hover:bg-blue-700 rounded ">
+                                    Contactez-nous
+                                </Link>
                             </ul>
                         </nav>
                     </div>
-                    <div>
-                        <Link to="/contact" className="bg-blue-900 text-white font-bold px-4 py-2 hover:bg-blue-700 rounded">
-                            Contactez-nous
-                        </Link>
-                    </div>
+                 
                 </nav>
             </header>
         </>

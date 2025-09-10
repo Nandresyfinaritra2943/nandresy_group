@@ -9,7 +9,7 @@ function Footer () {
                     <div>
                         {/* <img src="/logo-sra-white.png" alt="NRZ Madagascar" className="h-10 mb-4" /> */}
                         <div className="flex flex-col bg-transparent">
-                            <span className="text-[antiquewhite] text-6xl font-bold tracking-widest">NRZ</span>
+                            <span className="text-[antiquewhite] text-5xl font-bold tracking-widest">NaNTIC</span>
                             <span className="text-[antiquewhite] text-lg tracking-widest mt-2">MADAGASCAR</span>
                         </div>
                     </div>
@@ -21,6 +21,11 @@ function Footer () {
                         </ul>
                     </div>
                     <div>
+                        <h4 className="font-bold mb-2">Contactez-Nous</h4>
+                        <p>+261 38 73 306 27</p>
+                        <p>contact.nandresy@nantic.com</p>
+                    </div>
+                    <div>
                         <h4 className="font-bold mb-2"> A propos </h4>
                         <ul>
                             <li>Qui sommes-nous ?</li>
@@ -28,15 +33,10 @@ function Footer () {
                             <li>Nous recrutons !</li>
                         </ul>
                     </div>
-                    <div>
-                        <h4 className="font-bold mb-2">Contactez-Nous</h4>
-                        <p>+261 38 73 306 27</p>
-                        <p>contact.nandresy@groupe-nrz.com</p>
-                    </div> 
                 </div>
                 <div className='border-b-2 bg-slate-500 my-6 w-auto'></div>
                 <div>
-                    <p className="text-sm items-center text-center"> © NRZ Madagascar 2024 </p>
+                    <p className="text-sm items-center text-center"> © NaNTIC Madagascar 2024 </p>
                 </div>
             </footer>
         </>

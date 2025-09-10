@@ -9,7 +9,7 @@ function Acceuil () {
             <div className="absolute inset-0 bg-black/50"></div>
             <div className="text-white z-10 text-center px-7">
                 <h1 className=" text-5xl font-bold mb-4">
-                    Découvrez comment NRZ Madagascar peut vous aider à créer ou améliorer vos Site Web
+                    Découvrez comment NaNTIC Madagascar peut vous aider à créer ou améliorer vos Site Web
                 </h1>
                 <p className="text-lg md:text-xl mb-6">
                     Grâce à son expertise dans le déploiement des solutions de gestion des versions et differents types de technologies.

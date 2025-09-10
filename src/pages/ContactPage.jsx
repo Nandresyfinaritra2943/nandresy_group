@@ -13,12 +13,12 @@ function ContactPage () {
                 <div className="md:w-1/2">
                     <GoogleMap />
                     <div className="bg-white p-6 rounded-lg shadow-md mt-4">
-                        <h3 className="font-bold text-lg mb-2">NRZ Madagascar</h3>
+                        <h3 className="font-bold text-lg mb-2">NaNTIC Madagascar</h3>
                         <p className="text-sm">Du Lundi au Vendredi</p>
                         <p className="text-sm">De 08h - 12h</p>
                         <p className="text-sm">De 14h - 18h</p>
                         <p className="text-sm mt-2">+261 38 73 306 27</p>
-                        <p className="text-sm">contact.nandresy@groupe-nrz.com</p>
+                        <p className="text-sm">contact.nandresy@nantic.com</p>
                     </div>
                 </div>
             </div>
