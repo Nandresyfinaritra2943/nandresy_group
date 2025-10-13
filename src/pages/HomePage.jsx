@@ -1,5 +1,6 @@
 import React from "react";
-import Acceuil from "../components/Acceuil";
+import Acceuil from "../Acceuil Principal/Acceuil";
+// import Acceuil from "../components/Acceuil";
 
 function HomePage () {
     return (

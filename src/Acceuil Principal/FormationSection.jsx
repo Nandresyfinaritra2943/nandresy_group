@@ -1,11 +1,12 @@
 import React from "react";
 
-function ServiceSections ({ title, description, image, reverse }) {
+function FormationSections ({ title, description, image, reverse }) {    
 
     return (
+
         <section className="py-12">
-            <div
-                className={`container mx-auto flex flex-col md:flex-row items-center px-6 gap-8 ${
+            
+            <div className={`container mx-auto flex flex-col md:flex-row items-center px-6 gap-8 ${
                     reverse ? "md:flex-row-reverse" : ""
                 }`}
             >
@@ -29,4 +30,4 @@ function ServiceSections ({ title, description, image, reverse }) {
         </section>
     )
 }
-export default ServiceSections
+export default FormationSections
