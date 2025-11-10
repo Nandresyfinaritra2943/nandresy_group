@@ -5,6 +5,41 @@
   text-align: center;
 }
 
+#desc_head2{
+    /* font-size: 50px;
+    margin-top: 10px; */
+}
+#desc_head2 span{
+    color: #ff0000;
+    position: relative;
+}
+#desc_head2 span:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-left: 3px solid rgb(226 232 240 / var(--tw-bg-opacity))  ;
+    right:-2px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240 / var(--tw-bg-opacity)) /* #f3f4f6 */;  
+/* 
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240 /  var(--tw-bg-opacity)); */
+
+    animation: text 4s infinite backwards steps(10);
+}
+@keyframes text{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
