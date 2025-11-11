@@ -73,16 +73,18 @@ const Header = () => {
                         </a>
                         <nav className="hidden md:block">
                             <ul className="flex space-x-4">
-                                <li> <ScrollLink to="HeroSection" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Acceuil </ScrollLink></li>
-                                <li> <ScrollLink to="ParcoursAcademique" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Mes Formations </ScrollLink></li>
-                                <li> <ScrollLink to="Competences" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Mes Competences </ScrollLink></li>
-                                <li> <ScrollLink to="Projet" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Mes Projets </ScrollLink></li>
+                                <li> <ScrollLink  to="HeroSection" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Acceuil </ScrollLink></li>
+                                <li> <ScrollLink  to="ParcoursAcademique" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Mes Formations </ScrollLink></li>
+                                <li> <ScrollLink  to="Competences" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Mes Competences </ScrollLink></li>
+                                <li> <ScrollLink  to="Projet" spy={true} smooth={true} duration={1500} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> Mes Projets </ScrollLink></li>
                             </ul>
                         </nav>
                     </div>
 
                     <div className="hidden md:flex items-center space-x-4">
-                        <p className="transition-shadow text-gray-700 dark:text-gray-100 dark:hover:text-blue-400 hover:text-blue-600 font-medium cursor-pointer"> Thème </p>
+                        <p 
+                            onClick={toggleTheme}
+                            className="transition-shadow text-gray-700 dark:text-gray-100 dark:hover:text-blue-400 hover:text-blue-600 font-medium cursor-pointer"> Thème </p>
                         <button
                             onClick={toggleTheme}
                             className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -122,7 +124,11 @@ const Header = () => {
                                 <li> 
                                     <ScrollLink to="Apropos" spy={true} smooth={true} duration={1500} onClick={closeMenu} className="transition-shadow text-gray-700 hover:text-blue-600 dark:text-gray-100 dark:hover:text-blue-400 font-medium cursor-pointer"> 
                                         <div className="flex items-center text-center ml-20">
-                                            <p className="transition-shadow text-gray-700 dark:text-gray-100 dark:hover:text-blue-400 hover:text-blue-600 font-medium cursor-pointer"> Thème </p>
+                                            <p 
+                                                onClick={toggleTheme}
+                                                className="transition-shadow text-gray-700 dark:text-gray-100 dark:hover:text-blue-400 hover:text-blue-600 font-medium cursor-pointer"> 
+                                                Thème 
+                                            </p>
                                             <button
                                                 onClick={toggleTheme}
                                                 className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700"

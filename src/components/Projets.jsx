@@ -64,7 +64,7 @@ function Projet() {
     },
     {
       id: 4,
-      title: "Portfolio Devolper",
+      title: "Portfolio Developer",
       images: [projet4_1, projet4_2, projet4_3, projet4_4, projet4_5, projet4_6, projet4_7, projet4_8], // Un projet peut n'avoir qu'une seule image
       description: "site web de mon portFolio realiser avec react JS et Tailwind CSS . ",
     },
